@@ -5,6 +5,9 @@ def save_name(names_file):
     my_file.write(current_name + "\n")
     my_file.close()
 
+def moshe(david):
+    print(david)
+
 
 def show_names(names_file):
     my_file,a = open(names_file, "r"), 3
