@@ -5,7 +5,10 @@ def save_name(names_file):
     my_file.write(current_name + "\n")
     my_file.close()
 
-
+def haim(avi):
+    print(avi)
+    
+    
 def show_names(names_file):
     my_file,a = open(names_file, "r"), 3
     for i in range(5):
