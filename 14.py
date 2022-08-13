@@ -1,6 +1,6 @@
 import ast
 my_file = open("config.json")
-a = "{'name': 'haim'}"
+a = "{'name': 'sergey'}"
 
 c = dict(ast.literal_eval(my_file.read()))
 if (c["name"]) == "sergey":
