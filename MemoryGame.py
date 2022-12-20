@@ -40,5 +40,7 @@ def play(difficulty2):
     list_from_user = get_list_from_user(difficulty2)
     if is_list_equal(list_from_user, lst_from_rand):
         print("Correct answer")
+        return True
     else:
         print("Wrong answer")
+        return False
