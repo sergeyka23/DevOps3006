@@ -7,8 +7,12 @@ def save_name(names_file):
 
 def haim(avi):
     print(avi)
-    
-    
+
+
+def moshe(david):
+    print(david)
+
+
 def show_names(names_file):
     my_file,a = open(names_file, "r"), 3
     for i in range(5):

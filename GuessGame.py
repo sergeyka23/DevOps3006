@@ -27,6 +27,8 @@ def play(in_difficulty=1):
     choice_from_user = int(get_guess_from_user(in_difficulty))
     if compare_results(choice_from_user, generated_secret):
         print("Your guess is correct")
+        return True
     else:
         print("Your guess is NOT correct")
+        return Flase
 

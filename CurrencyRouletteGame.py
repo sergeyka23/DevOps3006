@@ -22,5 +22,7 @@ def play(difficulty2=1):
     interval1 = get_money_interval(difficulty2)
     if get_guess_from_user(difficulty2, interval1):
         print("Your guess is correct")
+        return True
     else:
         print("Your guess is NOT correct")
+        return False
